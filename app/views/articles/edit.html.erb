@@ -1,0 +1,7 @@
+<%= form_for @article do |f| %>
+  <%= f.label :title, "Article title" %>
+  <%= f.text_field :title %>
+  <%= f.label :description, "Article description" %>
+  <%= f.text_area :description %>
+  <%= f.submit 'Submit Article' %>
+<% end %>
